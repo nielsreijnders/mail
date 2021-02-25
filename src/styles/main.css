@@ -1,10 +1,9 @@
-/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+/* CLIENT-SPECIFIC STYLES */
 #outlook a {
   padding: 0;
 }
 
 /* Force Outlook to provide a "view in browser" message */
-
 .ReadMsgBody {
   width: 100%;
 }
@@ -14,7 +13,6 @@
 }
 
 /* Force HM to display emails at full width */
-
 .ExternalClass,
 .ExternalClass p,
 .ExternalClass span,
@@ -53,8 +51,7 @@ img {
 
 /* Allow smoother rendering of resized image in Internet Explorer */
 
-/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
-
+/* Reset styles */
 body {
   margin: 0;
   padding: 0;

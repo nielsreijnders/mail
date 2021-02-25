@@ -22,13 +22,15 @@ const Header = () => (
   >
     <tbody>
       <tr>
-        <a>
-          <img
-            alt="HEYO logo"
-            src="http://cdn.mcauto-images-production.sendgrid.net/27c8c65ba7b3d635/e6814b23-0cb7-4b99-a2fc-319dc28a2747/640x160.png"
-            style={style.styledImage}
-          />
-        </a>
+        <td>
+          <a>
+            <img
+              alt="HEYO logo"
+              src="http://cdn.mcauto-images-production.sendgrid.net/27c8c65ba7b3d635/e6814b23-0cb7-4b99-a2fc-319dc28a2747/640x160.png"
+              style={style.styledImage}
+            />
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>
