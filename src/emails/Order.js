@@ -13,7 +13,7 @@ function Order() {
   return (
     <Layout>
       <div style={style.container}>
-        ijowejfiosef
+        Basic template v1.0.0
       </div>
     </Layout>
   );

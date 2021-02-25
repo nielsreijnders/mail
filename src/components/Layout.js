@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import { colors } from '../styles';
 
 const style = {
   container: {

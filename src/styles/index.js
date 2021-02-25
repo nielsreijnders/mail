@@ -12,6 +12,7 @@ export const colors = {
   blue: '#2760FF',
   green: '#319865',
   orange: '#F09400',
+  lightBlack: '#262626',
 };
 
 export const fonts = {
