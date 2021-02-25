@@ -1,25 +1,22 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 const style = {
   container: {
-    backgroundColor: '#efefef',
+    backgroundColor: '#F9F7F0',
     padding: '20px 0',
     fontFamily: 'sans-serif',
   },
-  main: {
-    maxWidth: '500px',
-    width: '100%',
-  },
 };
 
-
-function Order({ data }) {
+function Order() {
   return (
-    <div style={style.container}>
-      ijowejfiosef
-    </div>
+    <Layout>
+      <div style={style.container}>
+        ijowejfiosef
+      </div>
+    </Layout>
   );
 }
 
 export default Order;
-
