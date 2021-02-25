@@ -1,4 +1,4 @@
-const createEmail = require('../hooks/useCreateEmail');
+const createEmail = require('./hooks/useCreateEmail');
 
 const data = {
   test: 'test',
