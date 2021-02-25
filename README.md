@@ -1,6 +1,6 @@
 ## HEYO MAIL SERVICE 🦋
 
-A fast way to build heyo mails with reusable components/styling. Converts react components to a inline html format.
+A fast way to build heyo mails with reusable components/styling. Converts react components to inline html ready for Sendgrid.
 
     .
     ├── build                   # Compiled files (alternatively `dist`)        
