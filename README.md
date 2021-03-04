@@ -1,4 +1,4 @@
-## HEYO MAIL SERVICE 🦋
+## MAIL SERVICE 🦋
 
 A fast way to build heyo mails with reusable components/styling. Converts react components to inline html ready for Sendgrid.
 
