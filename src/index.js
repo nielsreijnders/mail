@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Order from './emails/Order';
-import './styles/main.css'
+import Elk from './emails/Datenna';
+import './styles/main.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Order />
+    <Elk />
   </React.StrictMode>,
   document.getElementById('root'),
 );

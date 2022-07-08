@@ -3,7 +3,7 @@ export const desktopBreakpoint = '1024px';
 export const colors = {
   black: '#000000',
   white: '#fff',
-  lightGrey: '#FAFAFA',
+  lightGrey: '#fff',
   mediumGrey: '#F2F2F2',
   darkGrey: '#BEBBBB',
   mailleGold: '#AE841F',

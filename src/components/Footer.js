@@ -1,58 +1,65 @@
 import React from 'react';
-import { colors, letterSpacing } from '../styles';
+import { letterSpacing } from '../styles';
 
 const style = {
-  container: {
-    width: '100%',
-    fontFamily: 'roboto_regular, calibri, Arial, sans-serif',
-    textAlign: 'center',
-  },
   text: {
     fontSize: '16px',
-    color: colors.lightBlack,
-    margin: '0 0 32px 0',
+    margin: '30px 0 15px 0',
     letterSpacing: letterSpacing(-16),
     lineHeight: '32px',
   },
-  image: {
-    width: '45px',
+  footerSecond: {
+    background: '#00213B',
+    color: '#fff',
+    width: '640px',
+    fontSize: '14px',
+    lineHeight: '16px',
+    textAlign: 'center',
     display: 'block',
-    margin: '0 6px',
+    margin: '0 auto',
+    padding: '35px 0px',
   },
-  socials: {
-    margin: '0 auto 32px',
+  footer: {
+    width: '640px',
+    margin: '0 auto',
+  },
+  copyright: {
+    padding: '25px 0px',
+    textAlign: 'center',
+    fontSize: '14px',
+    color: '#c5c5c5',
   },
 };
 
 const Footer = () => (
-  <table
-    style={style.container}
-  >
-    <tbody>
-      <tr>
-        <td>
-          <p style={style.text}>Blijf op de hoogte, volg ons ook via:</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table style={style.socials}>
-            <tr>
-              <td>
-                <img style={style.image} src="http://cdn.mcauto-images-production.sendgrid.net/56a803db46af10ff/25abaaee-c170-412a-853d-ef3bfe0e01ea/167x167.png" />
-              </td>
-              <td>
-                <img style={style.image} src="http://cdn.mcauto-images-production.sendgrid.net/56a803db46af10ff/25abaaee-c170-412a-853d-ef3bfe0e01ea/167x167.png" />
-              </td>
-              <td>
-                <img style={style.image} src="http://cdn.mcauto-images-production.sendgrid.net/56a803db46af10ff/25abaaee-c170-412a-853d-ef3bfe0e01ea/167x167.png" />
-              </td>
-
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </tbody>
+  <table style={style.footer}>
+    <tr style={style.footerSecond}>
+      <td style={{ paddingLeft: '30px' }}>
+        <a style={{ color: '#fff', textDecoration: 'none' }} href="https://topsluchtfilters.nl/disclaimer/" target="_blank" rel="noreferrer">
+          Renoveren  |
+        </a>
+      </td>
+      <td style={{ paddingLeft: '2px' }}>
+        <a style={{ color: '#fff', textDecoration: 'none' }} href="https://topsluchtfilters.nl/algemene-voorwaarden/" target="_blank" rel="noreferrer">
+          Onderhouden  |
+        </a>
+      </td>
+      <td style={{ paddingLeft: '2px' }}>
+        <a style={{ color: '#fff', textDecoration: 'none' }} href="https://topsluchtfilters.nl/privacy/" target="_blank" rel="noreferrer">
+          Transformeren |
+        </a>
+      </td>
+      <td style={{ paddingLeft: '2px' }}>
+        <a style={{ color: '#fff', textDecoration: 'none' }} href="https://topsluchtfilters.nl/privacy/" target="_blank" rel="noreferrer">
+          Projecten
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td style={style.copyright}>
+        Elk Transformeer. All rights reserved. 2022
+      </td>
+    </tr>
   </table>
 );
 

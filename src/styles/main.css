@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a {
+  color: #CDD0CE;
+}
+
 /* Force Outlook to provide a "view in browser" message */
 .ReadMsgBody {
   width: 100%;

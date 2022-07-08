@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import Text from './Text';
 import { colors } from '../styles';
 
 const style = {
   container: {
     margin: '0 auto',
-    fontFamily: "'roboto_regular', 'calibri', Arial, sans-serif",
+    fontFamily: 'sans-serif',
   },
 };
 
@@ -16,7 +17,7 @@ const Layout = ({ children }) => (
     cellPadding="0"
     cellSpacing="0"
     border="0"
-    bgcolor="#EDEDED"
+    bgcolor="#f2f2f2"
     width="100%"
   >
     <tbody>
@@ -26,15 +27,16 @@ const Layout = ({ children }) => (
             cellPadding="0"
             cellSpacing="0"
             border="0"
-            bgcolor="#F9F7F0"
-            width="768"
-            min-width="768px"
+            bgcolor="#fff"
+            width="640px"
+            min-width="640px"
             style={style.container}
           >
             <tbody>
               <tr>
                 <td>
                   <Header />
+                  <Text />
                   {children}
                   <Footer />
                 </td>
